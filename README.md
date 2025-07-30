@@ -32,22 +32,46 @@ graph TD
     C --> G[Redis Cache]
     D --> H[Exchange Adapters]
 ```
-📌 Component Descriptions
-Frontend: React-based UI that interacts with the backend over HTTP/WebSocket.
+---
 
-API Gateway: Central routing layer for all frontend-to-backend communication.
+### 📌 Component Descriptions
 
-Market Data Service: Fetches live market feeds and caches them for internal use.
+- **Frontend (Next.js)**  
+  - Server-side rendered React application  
+  - Real-time updates using WebSocket  
+  - Responsive UI with Tailwind CSS
 
-Trading Service: Executes buy/sell orders, runs strategies, and interacts with exchanges.
+- **API Gateway**  
+  - Handles request routing and authentication  
+  - Central entry point for all frontend-backend communication
 
-Portfolio Service: Manages account balances, PnL, open/closed positions.
+- **Market Data Service**  
+  - Streams and processes real-time crypto market data  
+  - Publishes data via Redis pub/sub to downstream services
 
-TimescaleDB: Time-series database for storing historical trades, prices, and logs.
+- **Trading Service**  
+  - Manages order placement, execution, and order book logic  
+  - Interfaces with Exchange Adapters for live trading
 
-Redis Cache: Fast access layer for volatile market snapshots and streaming data.
+- **Portfolio Service**  
+  - Tracks open/closed positions, account balance, and PnL  
+  - Fetches historical trades and aggregates performance metrics
 
-Exchange Adapters: Interfaces to Binance, Coinbase, and other exchanges (REST/WebSocket).
+- **Exchange Adapters**  
+  - REST & WebSocket interfaces to Binance, Coinbase, etc.  
+  - Unified interface for order management and data ingestion
+
+- **TimescaleDB**  
+  - PostgreSQL extension for efficient time-series storage  
+  - Stores price ticks, order history, portfolio snapshots
+
+- **Redis**  
+  - Caching layer for real-time market data  
+  - Also used for pub/sub messaging between services
+
+- **Object Storage (e.g., S3 or MinIO)**  
+  - Stores model artifacts, strategy configs, and logs
+
 
 ## 🛠 Tech Stack
 
