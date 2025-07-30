@@ -1,0 +1,1 @@
+from .cryptocompare_collector import CryptoCompareCollector as cryptocompare_collector
