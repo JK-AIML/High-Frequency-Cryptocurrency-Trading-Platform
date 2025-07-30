@@ -16,7 +16,37 @@ A high-performance, real-time cryptocurrency trading platform with ML-powered an
 
 ## 🏗 Architecture
 
-![Architecture Diagram](docs/architecture/architecture.png)
+## 🏗️ System Architecture
+
+A high-level overview of the architecture behind the High-Frequency Cryptocurrency Trading Platform.
+
+```mermaid
+graph TD
+    A[Frontend] -->|HTTP/WebSocket| B[API Gateway]
+    B --> C[Market Data Service]
+    B --> D[Trading Service]
+    B --> E[Portfolio Service]
+    C --> F[(TimescaleDB)]
+    D --> F
+    E --> F
+    C --> G[Redis Cache]
+    D --> H[Exchange Adapters]
+📌 Component Descriptions
+Frontend: React-based UI that interacts with the backend over HTTP/WebSocket.
+
+API Gateway: Central routing layer for all frontend-to-backend communication.
+
+Market Data Service: Fetches live market feeds and caches them for internal use.
+
+Trading Service: Executes buy/sell orders, runs strategies, and interacts with exchanges.
+
+Portfolio Service: Manages account balances, PnL, open/closed positions.
+
+TimescaleDB: Time-series database for storing historical trades, prices, and logs.
+
+Redis Cache: Fast access layer for volatile market snapshots and streaming data.
+
+Exchange Adapters: Interfaces to Binance, Coinbase, and other exchanges (REST/WebSocket).
 
 ## 🛠 Tech Stack
 
