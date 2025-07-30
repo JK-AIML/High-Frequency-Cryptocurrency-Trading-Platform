@@ -1,4 +1,3 @@
-cat > README.md << 'EOL'
 # High-Frequency Cryptocurrency Trading Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
