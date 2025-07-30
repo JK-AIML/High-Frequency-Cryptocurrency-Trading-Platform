@@ -31,6 +31,7 @@ graph TD
     E --> F
     C --> G[Redis Cache]
     D --> H[Exchange Adapters]
+```
 📌 Component Descriptions
 Frontend: React-based UI that interacts with the backend over HTTP/WebSocket.
 
