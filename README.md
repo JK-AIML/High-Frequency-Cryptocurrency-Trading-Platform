@@ -91,7 +91,7 @@ graph TD
 - Docker Compose 2.0+
 - Python 3.9+
 - Node.js 16+
-
+### The Project is still ongoing under a huge developement phase. The final product will still take somemtime.
 ### Local Development
 
 ```bash
