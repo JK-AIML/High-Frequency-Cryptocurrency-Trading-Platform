@@ -1,4 +1,4 @@
-# High-Frequency Cryptocurrency Trading Platform
+# High-Frequency Cryptocurrency Trading Platform Simulator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
