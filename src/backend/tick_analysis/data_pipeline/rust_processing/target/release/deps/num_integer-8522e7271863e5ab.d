@@ -1,9 +1,0 @@
-D:\Tick Data Analysis & Alpha Detection\src\tick_analysis\data_pipeline\rust_processing\target\release\deps\libnum_integer-8522e7271863e5ab.rmeta: C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\lib.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\roots.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\average.rs
-
-D:\Tick Data Analysis & Alpha Detection\src\tick_analysis\data_pipeline\rust_processing\target\release\deps\libnum_integer-8522e7271863e5ab.rlib: C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\lib.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\roots.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\average.rs
-
-D:\Tick Data Analysis & Alpha Detection\src\tick_analysis\data_pipeline\rust_processing\target\release\deps\num_integer-8522e7271863e5ab.d: C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\lib.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\roots.rs C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\average.rs
-
-C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\lib.rs:
-C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\roots.rs:
-C:\Users\AKSHAY\ KUMAR\ SINGH\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-integer-0.1.46\src\average.rs:
